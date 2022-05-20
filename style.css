@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+.rubrik{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+
+.gurkpicture{
+    cursor: pointer;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.contents{
+    display: flex;   
+    align-items: center;
+    flex-direction: column;
+}
+
+.clicker{
+    width: 10%;
+}
+
+.counter{
+    position: relative;
+    border: none;
+    width: 150px;
+    height: 40px;
+    top: 25px;
+    background-color: green;
+}
+
+.button{
+    position: relative;
+    border: none;
+    height: 40px;
+    width: 300px;
+    top: 40px;
+    border-radius: 10px;
+    background-color: yellow;
+    cursor: pointer;
+    margin: 0.5%;
+}
+
+.button:hover{
+    background-color: rgb(236, 236, 15);
+}
+
+.button:active{
+    background-color: rgb(238, 255, 0);
+}
+
+.button2{
+    position: relative;
+    border: none;
+    height: 40px;
+    width: 300px;
+    top: 40px;
+    background-color: white;
+}
+
+    
+
