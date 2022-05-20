@@ -22,7 +22,7 @@ function upgrade(){
     if(click >= upgradecost){
         upgradelevel++;
         click -= upgradecost;
-        upgradecost*=3;
+        upgradecost*=2;
         upgrade1.innerHTML = "Gurkupgradering lvl " + upgradelevel + " " + upgradecost + ":-";
         counter.innerHTML = click + " gurkor";
     }
@@ -32,10 +32,12 @@ function Totalclicks(){
     totalclicksbutton.innerHTML = "Total clicks: " + totalclicks;
 }
 function Quest(){
-    if(totalclicks == questcost){
+    if(totalclicks == 10000000000){
+        quest.innerHTML = "Du har inga quest kvar, kompis."
+    }
+    else if(totalclicks >= questcost){
         questcost*=2;
         quest.innerHTML = "Quest: Få totalt "+ questcost + " gurkor";
         click += questcost;
-
     }
 }
