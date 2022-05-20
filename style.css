@@ -12,7 +12,7 @@ body{
 
 .gurkpicture{
     cursor: pointer;
-    width: 30%;
+    width: 320px;
     display: flex;
     justify-content: center;
 }
@@ -23,29 +23,25 @@ body{
     flex-direction: column;
 }
 
-.clicker{
-    width: 10%;
-}
-
 .counter{
     position: relative;
+    top: 15px;
     border: none;
-    width: 150px;
+    width: 320px;
     height: 40px;
-    top: 25px;
     background-color: green;
 }
 
 .button{
     position: relative;
+    top: 40px;
     border: none;
     height: 40px;
-    width: 300px;
-    top: 40px;
+    width: 320px;
     border-radius: 10px;
     background-color: yellow;
     cursor: pointer;
-    margin: 0.5%;
+    margin-bottom: 1%;
 }
 
 .button:hover{
@@ -60,7 +56,7 @@ body{
     position: relative;
     border: none;
     height: 40px;
-    width: 300px;
+    width: 320px;
     top: 40px;
     background-color: white;
 }
